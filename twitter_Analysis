@@ -4,9 +4,9 @@ from  textblob import TextBlob
 
 #create an OAuthHandler instance
 # Twitter requires all requests to use OAuth for authentication
-auth = tweepy.OAuthHandler("BzHxYlJ1gki5bZPU8nluKGk4s", "2AIsuoSP9hvNWLiEurnA35ssUl8cXBYZrSaf8sc6EjqLFl7Tkc")
+auth = tweepy.OAuthHandler("###33", "####")
 
-auth.set_access_token("253721010-DCw5oFk76IoliBBKkD6Dj4rkwj3CO4L3QtG8J5UH", "j4cJ13Qaq6Hw0M2ywV1wqr6sMkAxakbqJs87t9Kbig5uF")
+auth.set_access_token("#####3-####", "####3")
 
 #Construct the API instance
 api = tweepy.API(auth) # create an API object
