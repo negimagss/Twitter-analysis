@@ -12,7 +12,7 @@ auth.set_access_token("#####3-####", "####3")
 api = tweepy.API(auth) # create an API object
 
 public_tweets = api.home_timeline()
-searchtweets= api.search("Modi") # enter the search string 
+searchtweets= api.search("Modi") # enter the search string to be done
 
 print("==============================================================")
 for tweet in searchtweets:
